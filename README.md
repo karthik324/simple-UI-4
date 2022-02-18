@@ -1,10 +1,10 @@
 # ui_page_app_4
 
-A new Flutter project.
+A simple UI page.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Tried to clone the Home page of shopping app
 
 A few resources to get you started if this is your first Flutter project:
 
