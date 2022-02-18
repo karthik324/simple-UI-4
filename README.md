@@ -4,7 +4,7 @@ A simple UI page.
 
 ## Getting Started
 
-Tried to clone the Home page of shopping app
+Tried to clone the Home page of a shopping app
 
 A few resources to get you started if this is your first Flutter project:
 
