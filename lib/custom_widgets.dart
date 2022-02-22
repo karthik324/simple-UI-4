@@ -62,3 +62,64 @@ class CustomListTile extends StatelessWidget {
     );
   }
 }
+
+// class CustomExpansionTile extends StatefulWidget {
+//   Widget? trailing;
+//   String? title;
+//   String? expTitle;
+//   void Function(bool)? changeExpansion;
+//   bool value = false;
+//   Icon expanded = Icon(Icons.add);
+
+//   CustomExpansionTile(
+//       {Key? key,
+//       this.title,
+//       this.expTitle,
+//       this.trailing,
+//       this.changeExpansion})
+//       : super(key: key);
+
+//   @override
+//   State<CustomExpansionTile> createState() => _CustomExpansionTileState();
+// }
+
+// class _CustomExpansionTileState extends State<CustomExpansionTile> {
+//   Widget? trailing;
+//   late final String title;
+//   String? expTitle;
+//   void Function(bool)? changeExpansion;
+//   bool value = false;
+//   Icon expanded = Icon(Icons.add);
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       children: [
+//         ExpansionTile(
+//           childrenPadding: EdgeInsets.only(bottom: 6),
+//           expandedCrossAxisAlignment: CrossAxisAlignment.start,
+//           expandedAlignment: Alignment.centerLeft,
+//           collapsedTextColor: Colors.black,
+//           textColor: Colors.black,
+//           onExpansionChanged: changeExpansion,
+//           title: Text(title),
+//           trailing: trailing,
+//           children: [
+//             ListTile(
+//               onTap: () {
+//                 if (value == true) {
+//                   expanded = Icon(
+//                     Icons.minimize_outlined,
+//                     color: Colors.grey,
+//                   );
+//                 } else {
+//                   expanded = Icon(Icons.add);
+//                 }
+//               },
+//               title: Text(widget.expTitle!),
+//             )
+//           ],
+//         ),
+//       ],
+//     );
+//   }
+// }
